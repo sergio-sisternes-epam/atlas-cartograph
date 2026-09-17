@@ -2,10 +2,17 @@
 
 ## Unreleased
 
+## 0.4.3 - 2026-09-17
+
 ### Added
 
 - Layout Options slider for idle galaxy rotation, from 0 to 2× the original
   0.16 rad/s, remembered in the browser.
+
+### Fixed
+
+- Parse CRLF Markdown frontmatter so declared schema types such as
+  `experience` and `protostar` stay classified correctly.
 
 ### Changed
 
